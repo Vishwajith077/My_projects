@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📖 Admin Panel</h1>
+    <h2>Add / Edit Book</h2>
+    <input type="hidden" id="editId">
+    <input type="text" id="title" placeholder="Book Title">
+    <input type="text" id="author" placeholder="Author">
+    <button onclick="addOrUpdateBook()">Save</button>
+    <h2>Manage Books</h2>
+    <ul id="adminBookList"></ul>
+    <a href="index.html" class="btn">⬅ Back</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
